@@ -30,6 +30,7 @@ table {
   border: none;
   font-size: 25px;
   color: black;
+  border-radius: 6px;
 }
 
 .textview {
@@ -59,7 +60,7 @@ table {
 }
 
 .symbol {
-  background: white;
+  background: brown;
   font-weight: bold;
 }
 
@@ -67,3 +68,17 @@ table {
   background-color: blue;
 }
 
+.delete {
+  outline: none;
+  border: none;
+  background: white;
+  width: 60px;
+  height: 40px;
+  box-sizing: border-box;
+  margin-right: 0.5rem;
+  border-radius: 6px;
+}
+
+.delete:hover {
+  background-color: blue;
+}
